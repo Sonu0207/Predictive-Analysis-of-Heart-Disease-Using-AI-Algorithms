@@ -1,0 +1,5 @@
+To run the web application we created for the demonstration, run the main.py program. This will produce a URL to open in the browser of your choice. Then, enter sample patient information and click the 'Predict' button. The time it takes to make the prediction does vary between devices, so it may take up to a couple minutes to complete. Then, the label will read either 'Not At Risk' or 'At Risk' depending on the results of the random forest model.
+
+To run the program which prints out our accuracy metrics, run the Methods.py program. This will run all 5 SOTA methods and produce the results for each metric as well as a confusion matrix table.
+
+Any large portions of code that are commented out were intentionally left in to show how we constructed the graphs and visuals which helped up determine in how to improve our models. However, this significantly slows down and clutters the Methods.py program so they were commented out so that only the accuracy metrics will be displayed when the program is run.
