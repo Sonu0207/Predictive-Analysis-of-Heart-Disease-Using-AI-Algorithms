@@ -1,5 +1,16 @@
-To run the web application we created for the demonstration, run the main.py program. This will produce a URL to open in the browser of your choice. Then, enter sample patient information and click the 'Predict' button. The time it takes to make the prediction does vary between devices, so it may take up to a couple minutes to complete. Then, the label will read either 'Not At Risk' or 'At Risk' depending on the results of the random forest model.
+## How to Run the Project
 
-To run the program which prints out our accuracy metrics, run the Methods.py program. This will run all 5 SOTA methods and produce the results for each metric as well as a confusion matrix table.
+### Running the Web Application
 
-Any large portions of code that are commented out were intentionally left in to show how we constructed the graphs and visuals which helped up determine in how to improve our models. However, this significantly slows down and clutters the Methods.py program so they were commented out so that only the accuracy metrics will be displayed when the program is run.
+To run the web application created for the demonstration, execute the `main.py` program. This will generate a URL that you can open in the browser of your choice. Once opened, enter sample patient information and click the **Predict** button.
+
+> **Note:** The prediction time varies between devices and may take up to a couple of minutes to complete.  
+> The prediction label will display either **Not At Risk** or **At Risk** based on the results of the Random Forest model.
+
+### Running the Accuracy Metrics Program
+
+To run the program that prints out our accuracy metrics, execute the `Methods.py` program. This script runs all 5 state-of-the-art (SOTA) methods and outputs the results for each metric along with a confusion matrix table.
+
+### About Commented Code
+
+Large portions of code in `Methods.py` are commented out intentionally. These sections show how we constructed graphs and visuals that helped us improve our models. However, these parts significantly slow down the program and clutter the output, so they are commented out to ensure that only the accuracy metrics are displayed when the program runs.
